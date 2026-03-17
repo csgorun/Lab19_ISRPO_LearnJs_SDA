@@ -101,7 +101,7 @@ function makeCounter(){
 const counter = makeCounter();
 console.log(counter());
 console.log(counter());
-console.log(countre());
+console.log(counter());
 
 function sumFunc(a, b) {
     return a + b;
@@ -117,3 +117,53 @@ const calculate = (a, b) => {
     let result = a + b;
     return result * 2;
 };
+
+
+let numbersArr = [1, 2, 3, 4, 5];
+console.log(numbersArr);
+
+console.log(numbersArr[0]);
+console.log(numbersArr[1]);
+
+
+let colors = ["red", "green", "blue"];
+console.log(colors[0]);
+console.log(colors[2]);
+colors[1] = "black";
+console.log(colors)
+
+
+
+console.log(numbersArr.length);
+numbersArr.push(10);
+console.log(numbersArr);
+
+numbersArr.pop();
+console.log(numbersArr);
+
+
+let students = [];
+students.push("Dima", "Maks", "Kolya");
+
+console.log(students);
+
+students.pop();
+console.log(students);
+
+
+
+let numbers2 = [10, 20, 30];
+for (let i = 0; i < numbers2.length; i++) {
+    console.log(numbers2[i]);
+}
+for (let value of numbers2) {
+    console.log(value);
+}
+
+let mixedArray = [1, "text", true, 3.14];
+console.log(mixedArray);
+
+
+let city = ["Moskva", "Volgograd", "Sochi"]
+console.log(city.includes("Moskva"));
+console.log(city.includes("Belgia"));
